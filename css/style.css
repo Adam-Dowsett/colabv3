@@ -99,3 +99,12 @@ ul > li {
     list-style-type: none;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src:url("/fonts/Karasha-z8mYw.otf");
+}
+
+header h1 {
+    font-family: myFirstFont;
+}
+
