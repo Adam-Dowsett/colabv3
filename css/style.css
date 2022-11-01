@@ -58,6 +58,12 @@ header > h1 {
     margin: 20px auto;
 }
 
+.ninjaRanksTitle {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
 #film1 {
     background-image: url('../images/mortalkombat.jpg');
     background-size: cover;
