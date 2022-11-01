@@ -73,10 +73,12 @@ background-size: cover;
 }
 #film-list-div {
     width: 100%;
+    text-align: center;
 }
 #film-list-div li {
     display: inline-block
 }
+
 #film-list-div h5 {
     text-align: center;
     margin: auto;
@@ -91,11 +93,18 @@ background-size: cover;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0.5rem 2rem
+    margin: 0.5rem 1rem
 }   
-
-
 ul > li {
     list-style-type: none;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src:url("/fonts/Karasha-z8mYw.otf");
+}
+
+header h1 {
+    font-family: myFirstFont;
 }
 
