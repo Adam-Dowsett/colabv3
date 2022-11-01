@@ -1,3 +1,4 @@
+
 .ninjaRanks {
     background-color: rgb(65, 65, 65);
     margin: 10px 100px;
@@ -21,3 +22,52 @@
 .ninjaTools > div {
     width
 }
+
+#film1 {
+    background-image: url('../images/mortalkombat.jpg');
+    background-size: cover;
+}
+#film2 {
+    background-image: url('../images/tmnt.jpg');
+    background-size: cover;
+}
+#film3 {
+    background-image: url('../images/ninja-assassin.jpg');
+    background-size: cover;
+}
+#film4 {
+    background-image: url('../images/bhn.jpg');
+    background-size: cover;
+}
+#film5 {
+    background-image: url('../images/lnm.jpeg');
+    background-size: cover;
+}
+.film-img {
+    height: 300px;
+    width: 200px
+}
+#film-list-div {
+    width: 100%;
+}
+#film-list-div li {
+    display: inline-block
+}
+#film-list-div h5 {
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+}
+#film-list-div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 2rem
+}   
+
+
+ul > li {
+    list-style-type: none;
+}
+
